@@ -31,7 +31,7 @@ h2 {
 .hero {
   background: var(--secondary-color);
   text-align: center;
-  padding: 150px 30px;
+  padding: 80px 30px;
 }
 .hero p {
   font-size: 36px;
@@ -80,10 +80,10 @@ h2 {
   h2 {
     font-size: 44px;
   }
-  h4 {
+  h3 {
     font-size: 26px;
   }
-  .btn .hero {
+  .btn {
     padding: 80px 20px;
   }
   .content-container {
@@ -138,7 +138,7 @@ footer {
   font-size: 14px;
 }
 .content-container {
-  padding: 150px 30px;
+  padding: 70px 30px;
 }
 .content {
   margin: 30px;
