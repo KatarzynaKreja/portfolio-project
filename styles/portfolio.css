@@ -49,18 +49,31 @@ h2 {
   background: var(--branding-color);
   border-radius: 4px;
   color: white;
+  text-decoration: none;
   font-size: 18px;
   line-height: 27px;
-  padding: 12px 20px;
+  padding: 15px 30px;
 }
+
+.btn-branding:hover {
+  color: white;
+}
+
 .btn-branding-outline {
-  border-radius: 4px;
   color: var(--branding-color);
-  font-size: 18px;
-  line-height: 27px;
-  padding: 12px 20px;
   border: 1px solid var(--branding-color);
+  border-radius: 4px;
+  font-size: 18px;
+  text-decoration: none;
+  line-height: 27px;
+  padding: 15px 30px;
 }
+
+.btn-branding-outline:hover {
+  background: var(--branding-color);
+  color: white;
+}
+
 .project-description {
   padding: 120px 60px 0;
 }
@@ -83,9 +96,7 @@ h2 {
   h3 {
     font-size: 26px;
   }
-  .btn {
-    padding: 80px 20px;
-  }
+
   .content-container {
     text-align: center;
     padding: 0;
